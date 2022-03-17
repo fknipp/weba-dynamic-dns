@@ -1,3 +1,3 @@
-# express-simple-znwfgk
+# weba-dynamic-dns
 
-[Edit on StackBlitz ⚡️](https://stackblitz.com/edit/express-simple-znwfgk)
+Generates and updates DNS names on Hetzner DNS
