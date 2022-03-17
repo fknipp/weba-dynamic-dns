@@ -31,7 +31,9 @@ app.get("/api/dnsname/:name", async (req, res) => {
   const { name: dnsName, value } = response.record;
   res
     .type("text/plain")
-    .send(`DNS record created for ${ip} on ${dnsName}.${DOMAIN}.\n`);
+    .send(
+      `DNS record created for ${dnsName}.${DOMAIN} with IP address ${value}.\n`
+    );
 });
 
 app.get("/api/dnsname", async (req, res) => {
