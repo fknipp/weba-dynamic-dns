@@ -1,1 +1,0 @@
-export const HETZNER_DNS_API_KEY = 'WiqdZBm6KSWQJWf960jNXUcIWdnJLvgV';
